@@ -2,6 +2,7 @@
   "name": "calendly",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/mjshuff23/calendly-api/issues"
   },
-  "homepage": "https://github.com/mjshuff23/calendly-api#readme"
+  "homepage": "https://github.com/mjshuff23/calendly-api#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "node-fetch": "^3.2.0"
+  }
 }
